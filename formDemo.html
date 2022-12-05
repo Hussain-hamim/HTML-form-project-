@@ -1,0 +1,301 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamim's webpage</title>
+</head>
+<body>
+    
+
+<form method="get" enctype="multipart/form-data">
+
+    <h1>********login form*******</h1>
+
+    <input placeholder="username" type="text" name="username">
+    <input placeholder="password" type="password" name="password"> 
+    <input type="submit">
+ <br>
+ <br>
+ <br>
+******************************************
+<br>
+    <br>
+    <b>select your subject:</b>
+    <br>
+    <label>
+    <input checked type="checkbox" name="java">Java  </label> <br>
+    <label>  <input type="checkbox" name="web development">Web Development </label> <br>
+    <input type="checkbox" name="databases">Databases <br>
+    <input type="checkbox" name="data science">Data science <br>
+
+    <input type="submit" value="choose">
+
+    <br>
+    <br>
+****************************************
+   <br> 
+<b>select gender: </b> <br>
+<label><input type="radio" name="gender" checked value="male">male </label> <br> 
+<label ><input type="radio" name="gender" value="female">female</label>
+<br>
+<input type="submit"> 
+<br>
+<br>
+************************************
+<br>
+<b>choose a country: </b> <br>
+<select name="country" >
+    <option></option>
+    <option value="PAK">Pakistan</option>
+    <option disabled value="IRN">Iran</option>
+    <option value="IND">India</option>
+    <option  value="AFG">Afghanistan</option>
+
+</select>
+<input type="submit">
+
+<br>
+<br>
+
+****************************************
+<br>
+<b>choose a country: </b> <br>
+<select name="country" >
+    
+    <optgroup label="Asia">
+    <option selected value="AFG">Afghanistan</option>
+    <option value="PAK">Pakistan</option>
+    <option  value="IRN">Iran</option>
+    <option value="IND">India</option>
+</optgroup>
+<optgroup label="Eruope">
+    <option>France </option>
+    <option >Germany</option>
+    <option >Swiss</option>
+</optgroup>
+
+<optgroup label="America">
+    <option>USA</option>
+    <option>Canada</option>
+    <option>Brazil</option>
+
+</optgroup>
+
+</select>
+<input type="submit">
+
+<br>
+<br>
+***************************************
+
+
+<br>
+<b>choose a country: </b> <br>
+<select name="country" multiple >
+    
+    <option value="PAK">Pakistan</option>
+    <option  value="IRN">Iran</option>
+    <option value="IND">India</option>
+    <option selected value="AFG">Afghanistan</option>
+
+</select>
+<input type="submit">
+
+<br>
+<br>
+**************************************
+<br>
+<br>
+ 
+   <textarea name="comment" cols="10" rows="5"></textarea>
+   <input type="submit" value="Send">
+
+<br>
+<br>
+***************************************
+<br>
+<br>
+
+<input type="file" name="photo">
+
+<input type="submit" value="Send">
+<br>
+<br>
+(here is hidden field) <br>
+<input type="hidden" name="date" value="2022-dec-5">
+<br>
+<br>
+******************************************
+<h3>Button practicing</h3>
+
+
+<button type="button">blank button</button> <br>
+<button type="reset">button reset</button> <br>
+<button type="submit"> <b>button submit </b></button><br>
+<button type="menu">menu button</button><br>
+
+<br>
+<br>
+
+<button>&copy; print</button>
+<br>
+<br>
+<h2>Student rgistration form</h2>
+
+<fieldset>
+    <legend align="center">personal info</legend>
+Name: <input type="text"><br>
+ID: <input readonly value="101" type="text"><br>
+Gender: <input checked type="radio">male 
+<input type="radio">female <br>
+</fieldset>
+
+<fieldset>
+    <legend align="center">educational info</legend>
+
+Class: <select name="class">
+    <option value="1">first</option>
+    <option value="2">second</option>
+    <option value="3">third</option>
+    <option value="4">fourth</option>
+</select><br>
+<b>Subject: </b>  
+<label ><input type="checkbox">Java </label>
+<label> <input type="checkbox">Databases </label>
+<label><input type="checkbox">Data Science </label>
+ <input disabled type="checkbox">Machine learning  <br>
+<b>Address: </b> <textarea name="address"></textarea>
+</fieldset>
+
+
+<br><br>
+<button type="reset">reset</button>
+<button type="submit"><b>Submit</b></button>
+
+
+<br>
+<br>
+****************************************
+<h2>Student rgistration form (ordered with table)</h2>
+
+<table>
+    <tr>
+<td> Name:</td>
+<td> <input type="text"> </td>
+</tr>
+<tr> 
+<td> ID:</td> 
+<td> <input readonly value="101" type="text"></td>
+</tr>
+<tr>
+<td> Gender: </td> 
+<td> <input checked type="radio">male
+<input type="radio">female 
+</td>
+</tr>
+
+    
+<tr>
+<td> Class: </td>
+<td> <select name="class">
+    <option value="1">first</option>
+    <option value="2">second</option>
+    <option value="3">third</option>
+    <option value="4">fourth</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td> <b>Subject: </b>   </td>
+<td>
+<label ><input type="checkbox">Java </label>
+<label> <input type="checkbox">Databases </label>
+<label><input type="checkbox">Data Science </label>
+ <input disabled type="checkbox">Machine learning  <br>
+</td>
+</tr>
+<tr>
+<td> <b>Address: </td>
+<td> </b> <textarea name="address"></textarea></td>
+</tr>
+</table>
+
+<br><br>
+<button type="reset">reset</button>
+<button type="submit"><b>Submit</b></button>
+
+<br>
+<br>
+****************************************
+<h2>Student rgistration form (ordered with table and fieldseted)</h2>
+<fieldset>
+    <legend align="center">personal info</legend>
+<table>
+    <tr>
+<td> Name:</td>
+<td> <input type="text"> </td>
+</tr>
+<tr> 
+<td> ID:</td> 
+<td> <input readonly value="101" type="text"></td>
+</tr>
+<tr>
+<td> Gender: </td> 
+<td> <input checked type="radio">male
+<input type="radio">female 
+</td>
+</tr>
+</table>
+</fieldset>
+  
+<fieldset>
+<legend align="center">educational info</legend>
+    <table>
+<tr>
+<td> Class: </td>
+<td> <select name="class">
+    <option value="1">first</option>
+    <option value="2">second</option>
+    <option value="3">third</option>
+    <option value="4">fourth</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td> <b>Subject: </b>   </td>
+<td>
+<label ><input type="checkbox">Java </label>
+<label> <input type="checkbox">Databases </label>
+<label><input type="checkbox">Data Science </label>
+ <input disabled type="checkbox">Machine learning  <br>
+</td>
+</tr>
+<tr>
+<td> <b>Address: </td>
+<td> </b> <textarea name="address"></textarea></td>
+</tr>
+</table>
+
+<br><br>
+<button type="reset">reset</button>
+<button type="submit"><b>Submit</b></button>
+
+</table>
+</fieldset>
+
+</form>
+
+<br>
+<p>&#128512;</p>
+
+ &#128516;<br>
+  &#128525;
+  <br>
+   &#128151;
+
+</body>
+
+</html>
